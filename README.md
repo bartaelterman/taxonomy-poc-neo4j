@@ -28,7 +28,7 @@ If all goes well, no output is given. The entities are created in the database.
 
 The script `do_taxonomy_queries.py` implements my 2 use cases. It performs a query to select all children from the taxon `taxon3`. `taxon3` is a genus, and as you can see in the image above, this query should result in 3 species (`taxon6`, `taxon7` and `taxon8`) and 2 subspecies (`taxon9` and `taxon10`).
 
-The next query searches for all parents of `taxon10` which should result in `taxon1`, `taxon3` and `taxon6`. That's 
+The next query searches for all parents of `taxon10` which should result in `taxon1`, `taxon3` and `taxon6`.
 
 The output of both queries is printed to the screen and gives us the expected results:
 
