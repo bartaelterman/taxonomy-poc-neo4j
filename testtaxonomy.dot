@@ -1,0 +1,11 @@
+graph {
+    taxon2 -> taxon1;
+    taxon3 -> taxon1;
+    taxon4 -> taxon2;
+    taxon5 -> taxon2;
+    taxon6 -> taxon3;
+    taxon7 -> taxon3;
+    taxon8 -> taxon3;
+    taxon9 -> taxon6;
+    taxon10 -> taxon6;
+}
